@@ -69,10 +69,10 @@ body {
     justify-content: center;
     background-color: black;
     color: white;
-    gap:50px;
+    gap: 30px;
 }
 
-header {
+.header {
     display: flex;
     align-items: center;
     max-width: 80%;
@@ -144,4 +144,41 @@ nav button:hover{
 .menu-button:hover {
     background-color: blue;
     color: white;
+}
+
+/*---------------------------------------------menu-page---------------------------------------------------------------*/
+.menu-container {
+    height: 110vh;
+    max-width: 80%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title{
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.menu-caption {
+    color: #a1a1aa;
+    font-size: 1.3rem;
+}
+
+.menu-items {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    border: 2px solid blue;
+    min-height: 200px;
+
 }
