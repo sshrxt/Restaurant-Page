@@ -195,6 +195,7 @@ nav button:hover{
 .img-description {
     text-align: left;
     margin-bottom: 20px;
+    height: 100px;
 }
 
 .img-description h1 {
@@ -211,6 +212,8 @@ nav button:hover{
     margin-top: 5px;
     color: #a1a1aa;
     text-wrap: wrap;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 .menu-order {
