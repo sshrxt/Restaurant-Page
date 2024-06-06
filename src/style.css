@@ -244,3 +244,31 @@ nav button:hover{
     border: 2px solid #27272a;;
     border-radius: 5px;
 }
+
+/*----------------------------------about section ------------------------------- */
+.about-container {
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-img {
+    border: 2px solid #27272a;
+    min-height: 33vh;
+    height: 33vh;
+    width: 80%;
+    border-radius: 10px;
+    background-image: url(./assets/restaurant.jpg);
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: cover;
+}
+
+.about {
+    font-size: 1.4rem;
+    color: #a1a1aa;
+}
